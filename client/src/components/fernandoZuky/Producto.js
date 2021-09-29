@@ -13,7 +13,7 @@ const Producto = () => {
     <div>
       <Container className="box-effect">
         <div className="row">
-          <h1 className="title-style">product registration</h1>
+          <h1 className="title-style">PRODUCT REGISTRATION</h1>
         </div>
         <div>
           <Form className="row d-flex justify-content-center">

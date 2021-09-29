@@ -4,6 +4,7 @@ import Login from "./components/samuel/components/Login";
 import Producto from "./components/fernandoZuky/Producto";
 import Usuarios from "./components/yilmar/usuarios";
 import VentasModulo from "./components/samuel/components/VentasModulo";
+import Header from "./components/shared/Header";
 import { useSelector, useDispatch } from "react-redux";
 import { selectUser, handleLogout } from "./features/userSlice";
 
@@ -15,6 +16,7 @@ function App() {
       case "usuario":
         return (
           <>
+            <Header />
             <Producto />
             <Usuarios />
             <button onClick={() => dispatch(handleLogout)}>log out</button>
